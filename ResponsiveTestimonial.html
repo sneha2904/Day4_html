@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+        Step1: Creating Template (Markup)
+        Step2: Create  internal Style Sheet for the Markup
+        Step3: Create Script for the Markup 
+    -->
+
+    <div class="container">
+        <img src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="My Image" style="width: 42px;">
+        <p> Earth <span> First Client</span> We are thankful to earth
+
+        </p>
+    </div>
+
+    <div class="container">
+        <img src="https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="My Image" style="width: 50px;">
+        <p> Cloud <span> Second Client</span> We are thankful to Cloud
+
+        </p>
+    </div>
+
+    <Style>
+                .container {
+            border: 2px solid #ccc;
+            background-color: #eee;
+            border-radius: 5px;
+            padding: 16px;
+            margin: 16px 0
+        }
+        
+        .container img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        
+        .container span {
+            font-size: 20px;
+            margin-right: 15px;
+        }
+        
+        @media (max-width: 500px) {
+            .container {
+                text-align: center;
+            }
+            .container img {
+                margin: auto;
+                float: none;
+                display: block;
+    </Style>
+</body>
+
+</html>
